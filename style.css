@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(230, 230, 230);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(50, 50, 50) ;
+  font-size: 14px;
+  font-height: 400;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #251B5B;
+  font-size: 18px;
+  font-height: 700;
+}
+
+h2 {
+  font-size: 16px;
+  font-height: 400;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(210, 210, 210);
+}
+
+a:hover {
+  color: #251B5B;
+}
+
+#profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 10px auto;
+}
+
+.card {
+    border-radius: 4px;
+    background-color: white;
+    padding: 9px;
+    box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+/*.link-opacity {
+  opacity: 0.2;
+}*/
